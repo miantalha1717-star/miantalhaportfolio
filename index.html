@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehfil-e-Eid Milad-un-Nabi ﷺ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Milad Logo" width="180">
+        <h1>Mehfil-e-Eid Milad-un-Nabi ﷺ</h1>
+    </header>
+
+    <!-- Durood Counter -->
+    <section id="durood">
+        <h2>Send Durood Sharif ﷺ</h2>
+        <div id="count">12458</div>
+        <button onclick="sendDurood()">Send Durood</button>
+    </section>
+
+    <!-- Interactive Quran Verses -->
+    <section id="quran">
+        <h2>Interactive Quran Verses for Milad</h2>
+        <div id="verse-card">
+            <p id="arabic" style="font-size:1.8rem">﴿إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ﴾</p>
+            <p id="translation">Indeed, Allah and His angels send blessings upon the Prophet.</p>
+            <p id="ref">Surah Al-Ahzab 33:56</p>
+        </div>
+        <button onclick="newVerse()">New Verse</button>
+        <button onclick="copyVerse()">Copy</button>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

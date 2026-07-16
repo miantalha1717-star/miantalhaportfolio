@@ -1,0 +1,5 @@
+body { font-family: 'Segoe UI', system-ui; background: #f8f1e3; color: #1a3c2e; text-align: center; padding: 20px; }
+header img { border-radius: 50%; }
+#durood, #quran { margin: 40px auto; max-width: 600px; padding: 30px; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+#count { font-size: 3rem; color: #0f766e; }
+button { padding: 12px 30px; margin: 10px; background: #0f766e; color: white; border: none; border-radius: 50px; cursor: pointer; }
